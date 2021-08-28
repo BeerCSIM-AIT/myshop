@@ -23,9 +23,6 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Soi 5 Marketplace'),
-      ),
       body: SafeArea(
         child: pages[selectedIndex],
       ),
